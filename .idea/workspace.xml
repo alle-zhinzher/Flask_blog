@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a0604d7-e46b-4c06-8805-5129d053fe11" name="Default Changelist" comment="">
+    <list default="true" id="6a0604d7-e46b-4c06-8805-5129d053fe11" name="Default Changelist" comment="Added a good structure">
+      <change afterPath="$PROJECT_DIR$/flaskblog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/site.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/layout.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,13 +53,13 @@
           <entry key="dummy" value="3" />
           <entry key="html" value="575" />
           <entry key="py" value="1371" />
-          <entry key="txt" value="62" />
+          <entry key="txt" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="575" />
-          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="PLAIN_TEXT" value="76" />
           <entry key="Python" value="1371" />
         </counts>
       </usages-collector>
@@ -286,13 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544024763335</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added a good structure">
+      <created>1544028471076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544028471076</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.1505295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.1505295" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.25718608" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,7 +314,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49848714" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49848714" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -324,7 +332,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Registration and Login form!" />
     <MESSAGE value="Add databeses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add databeses" />
+    <MESSAGE value="Added a good structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a good structure" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/flaskblog/templates/about.html">
